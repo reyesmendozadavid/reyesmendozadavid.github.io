@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Promociones Izzi - Internet, TV y Telefonía</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', Arial, sans-serif;
+            background: #eef1f6;
+        }
+        header {
+            background: linear-gradient(90deg, #004aad, #007bff);
+            color: #fff;
+            padding: 25px;
+            text-align: center;
+            font-size: 26px;
+            font-weight: bold;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+        }
+        .hero {
+            background: url('https://images.pexels.com/photos/572056/pexels-photo-572056.jpeg') center/cover;
+            height: 340px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2.3rem;
+            font-weight: bold;
+            text-shadow: 3px 3px 10px black;
+            padding: 20px;
+            text-align: center;
+            border-bottom-left-radius: 45px;
+            border-bottom-right-radius: 45px;
+        }
+
+        /* PROMO PRINCIPAL */
+        .promo-box {
+            background: white;
+            max-width: 850px;
+            margin: 40px auto;
+            padding: 30px;
+            border-radius: 18px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+        .promo-box h2 {
+            color: #e53935;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        .promo-box p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        /* PLANES */
+        h2.title {
+            text-align: center;
+            font-size: 30px;
+            margin-top: 60px;
+            font-weight:600;
+            color:#003b80;
+        }
+        .plans {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 25px;
+        }
+        .plan {
+            background: white;
+            width: 290px;
+            padding: 25px;
+            border-radius: 18px;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+            text-align: center;
+            transition: .3s;
+        }
+        .plan:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.18);
+        }
+        .plan h3 {
+            color: #004aad;
+            margin-bottom: 15px;
+        }
+        .plan button {
+            background: #004aad;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 8px;
+            margin-top: 12px;
+            transition:.3s;
+        }
+        .plan button:hover {
+            background:#0061d7;
+            transform: scale(1.06);
+        }
+
+        /* FORMULARIO */
+        form {
+            background: white;
+            padding: 25px;
+            border-radius: 18px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+            max-width: 500px;
+            margin: 50px auto;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin-top: 12px;
+            border-radius: 10px;
+            border: 1px solid #bbb;
+            font-size: 16px;
+        }
+        button[type="submit"] {
+            margin-top: 20px;
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 14px;
+            cursor: pointer;
+            border-radius: 10px;
+            font-size: 18px;
+            transition:.3s;
+        }
+        button[type="submit"]:hover {
+            background:#005fcc;
+        }
+
+        footer {
+            background: #003b80;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 50px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>¡Promociones Izzi - Contrata Fácil y Rápido!</header>
+
+    <div class="hero">Internet + TV + Telefonía al mejor precio ¡Aprovecha hoy!</div>
+
+    <div class="promo-box">
+        <h2>🔥 PROMO ESPECIAL: DEL 10 AL 17 🔥</h2>
+        <p style="font-size:22px; color:red; font-weight:bold;">¡Solo $300 el primer mes!</p>
+
+        <p>📶 <strong>Internet + Telefonía</strong> desde <strong>$349</strong> — 60 megas</p>
+        <p>📺 <strong>Triple Pack</strong> Internet + Teléfono + TV — <strong>$499</strong> / 100 canales</p>
+        <p>🎁 Incluye: <strong>Vix Premium 12 meses + Max + Sky Sports</strong></p>
+        <p>💳 Domiciliación + Portabilidad = $50 menos para siempre</p>
+        <p>📌 Extensiones solo <strong>$49</strong></p>
+        <p style="color:green; font-size:20px;"><strong>Instalación GRATIS 💚</strong></p>
+        <p style="color:#004aad; font-size:22px; font-weight:bold;">⚡ Atención Inmediata ⚡</p>
+    </div>
+
+
+    <h2 class="title">Planes Disponibles</h2>
+    <div class="plans">
+        <div class="plan">
+            <h3>Internet + Telefonía</h3>
+            <p>60 megas</p>
+            <p><strong>$349 / mes</strong></p>
+            <button>Me interesa</button>
+        </div>
+
+        <div class="plan">
+            <h3>Triple Pack</h3>
+            <p>Internet + Teléfono + TV</p>
+            <p><strong>$499 / mes</strong></p>
+            <button>Me interesa</button>
+        </div>
+
+        <div class="plan">
+            <h3>Premium Max</h3>
+            <p>Incluye Apps + Canales + Streaming</p>
+            <p><strong>Vix • Max • Sky Sports</strong></p>
+            <button>Me interesa</button>
+        </div>
+    </div>
+
+
+    <h2 class="title">Contáctame para más información</h2>
+    <form onsubmit="enviarFormulario(event)">
+        <input type="text" id="nombre" placeholder="Tu nombre" required />
+        <input type="tel" id="telefono" placeholder="Tu teléfono" required />
+        <textarea id="mensaje" rows="4" placeholder="¿Qué paquete te interesa?"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <footer>© 2025 Promos Izzi - Todos los derechos reservados</footer>
+
+<script>
+function enviarFormulario(event) {
+    event.preventDefault();
+    alert("¡Gracias! En breve me comunicaré contigo.");
+}
+</script>
+
+</body>
+</html>
